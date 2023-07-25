@@ -7,6 +7,10 @@
     --fonte2: 'Passion one', cursive;
     --fonte3: 'sriracha', cursive;
 }
+ html, body {
+    min-height: 100vh;
+    background-color: dark;
+ }
 
 *{
     margin: 0px;
@@ -16,6 +20,7 @@
 header {
     background-color: black;
     color: white;
+    text-align: center;
 
 }
 
@@ -28,7 +33,7 @@ header > h1 {
     text-align: center;
 }
 header > p {
-    text-align: center;
+    
     padding-bottom: 50px;
 }
 
@@ -74,12 +79,12 @@ section.imagem > p {
 }
 
 section#img01 {
-    background-image: url('imagens/background001.jpg');
+    background-image: url('../imagens/background001.jpg');
     background-position: right center;
 }
 
 section#img02{
-    background-image: url('imagens/background002.jpg');
+    background-image: url('../imagens/background002.jpg');
 
 }
 footer {
